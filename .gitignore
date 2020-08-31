@@ -103,4 +103,4 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-/data
+/gov/sandia/mlRex/datasets
