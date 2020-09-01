@@ -21,11 +21,16 @@ from a couple of github.com sites as well as
 #--------------------------------BEGIN NETREX--------------------------#
 from skimage import io
 import numpy as np
+import tensorflow as tf
+from tensorflow import keras
+
+import gov.sandia.netRex.models.ImageClassifierCNN as classfy
+import numpy as np
 from optparse import OptionParser # Import OptionParser
 import os.path
 from matplotlib import pyplot as plt
 from skimage.util import img_as_ubyte
-import gov.sandia.mlRex.control.hyperparameters as hyPrms
+import gov.sandia.netRex.control.hyperparameters as hyPrms
 
 def image_intensity_hist(img):
     (head,tail) = os.path.splitext(os.path.realpath(img))
@@ -49,7 +54,7 @@ def image_intensity_hist(img):
     return image_dtype, image_rows, image_columns, min_intensity, \
            max_intensity, mean_intensity, intensity_variance
 
-def main():
+def main(trainer=None):
     parser = OptionParser()  # Instantiate OptionParser
     parser.description = "Defines switches for accepting the name of the input image at the commandline"
     #parser.add_option("-d", "--directory",
@@ -59,14 +64,15 @@ def main():
     parser.add_option("-e", "--epochs",dest="epochs",help="Number of Epochs")
     parser.add_option("-b", "--batchSize",dest="batchSize",help="The preferred batch size for fitting the network")
     parser.add_option("-s", "--imageSize",dest="imgSz",help="The side dimension of the images. In this case rows must equal columns")
-    parser.add_option("-b", "--bands", dest="bnds", help="This is the number of bands in the image")
+    parser.add_option("-a", "--bands", dest="bnds", help="This is the number of bands in the image")
     parser.add_option("-t", "--testSize",dest="testSize",help="Size of the test")
     (options, args) = parser.parse_args()
 
     #self,anImageSize, anEpoch, aBatchSize, aTestSize, numBands
-    hyPrms.InitialParams(options.imageDimension, options.epochs, options.batchSz, options.testSize, options.bnds)
-
-
+    #run = hyPrms.InitialParams(options.imageDimension, options.epochs, options.batchSz, options.testSize, options.bnds)
+    run = classfy.Classifiers(500,5, 1, 30, 1)
+    theModel = run.models()
+    run.trainerGen(theModel)
 
 
 

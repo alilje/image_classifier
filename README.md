@@ -1,5 +1,5 @@
 <h3 align="center">
-  <img src="gov/sandia/mlRex/assets/image_classifier_icon_web.png" width="300">
+  <img src="gov/sandia/netRex/assets/image_classifier_icon_web.png" width="300">
 </h3>
 
 # Image Classifier
@@ -87,11 +87,11 @@ For non-binary classifications:
 	_________________________________________________________________
 
 
-<img src="gov/sandia/mlRex/models/model_1/model_1_training.png" width="500">
+<img src="gov/sandia/netRex/models/model_1/model_1_training.png" width="500">
 
 <br>
 
-<img src="gov/sandia/mlRex/models/model_1/model_1_validation.png" width="500">
+<img src="gov/sandia/netRex/models/model_1/model_1_validation.png" width="500">
 
 ### model_2
 	_________________________________________________________________
@@ -133,11 +133,11 @@ For non-binary classifications:
 	_________________________________________________________________
 
 
-<img src="gov/sandia/mlRex/models/model_2/model_2_training.png" width="500">
+<img src="gov/sandia/netRex/models/model_2/model_2_training.png" width="500">
 
 <br>
 
-<img src="gov/sandia/mlRex/models/model_2/model_2_validation.png" width="500">
+<img src="gov/sandia/netRex/models/model_2/model_2_validation.png" width="500">
 
 
 ### model_3
@@ -180,11 +180,11 @@ For non-binary classifications:
 	_________________________________________________________________
 
 
-<img src="gov/sandia/mlRex/models/model_3/model_3_training.png" width="500">
+<img src="gov/sandia/netRex/models/model_3/model_3_training.png" width="500">
 
 <br>
 
-<img src="gov/sandia/mlRex/models/model_3/model_3_validation.png" width="500">
+<img src="gov/sandia/netRex/models/model_3/model_3_validation.png" width="500">
 
 
 ### model_4
@@ -227,11 +227,11 @@ For non-binary classifications:
 	_________________________________________________________________
 
 
-<img src="gov/sandia/mlRex/models/model_4/model_4_training.png" width="500">
+<img src="gov/sandia/netRex/models/model_4/model_4_training.png" width="500">
 
 <br>
 
-<img src="gov/sandia/mlRex/models/model_4/model_4_validation.png" width="500">
+<img src="gov/sandia/netRex/models/model_4/model_4_validation.png" width="500">
 
 
 ### model_5
@@ -282,11 +282,11 @@ For non-binary classifications:
 	Non-trainable params: 0
 	_________________________________________________________________
 
-<img src="gov/sandia/mlRex/models/model_5/model_5_training.png" width="500">
+<img src="gov/sandia/netRex/models/model_5/model_5_training.png" width="500">
 
 <br>
 
-<img src="gov/sandia/mlRex/models/model_5/model_5_validation.png" width="500">
+<img src="gov/sandia/netRex/models/model_5/model_5_validation.png" width="500">
 
 ## Author
 
