@@ -1,66 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25784836-7027-4a86-88c1-75d03d66b4c8" name="Default" comment="Yucaipa second">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/alilje.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test/class_a/03323001.5k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test/class_a/03323009.5k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test/class_b/01392001.5k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/training/class_a/01090002.5k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/training/class_a/01441002.5k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/training/class_a/01619002.5k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/training/class_a/03323002.5k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/training/class_b/01138001.5k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/training/class_b/01704002.5k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/training/class_b/01792002.5k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/training/class_b/03272002.5k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/training/class_b/03283002.5k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/training/class_b/03372002.5k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/validation/class_a/03421002.5k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/validation/class_b/03283004.5k.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/validation/class_b/03338002.5k.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gov/sandia/netRex/generators/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gov/sandia/netRex/generators/imagery.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image_classifier-master.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/image_classifier.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/image_classifier.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="25784836-7027-4a86-88c1-75d03d66b4c8" name="Default" comment="Fixed some of the images so that they are all 8 bit">
+      <change afterPath="$PROJECT_DIR$/data/test/class_a/03323007_8bit.5k.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gov/sandia/netRex/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/assets/image_classifier_icon_web.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/control/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gov/sandia/netRex/control/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/control/hyperparameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/gov/sandia/netRex/control/hyperparameters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/ImageClassifierCNN-EfficientNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/gov/sandia/netRex/models/ImageClassifierCNN-EfficientNet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/ImageClassifierCNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/gov/sandia/netRex/models/ImageClassifierCNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_1/model_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_1/model_1_summary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_1/model_1_training.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_1/model_1_training_logs.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_1/model_1_validation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_2/model_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_2/model_2_summary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_2/model_2_training.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_2/model_2_training_logs.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_2/model_2_validation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_3/model_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_3/model_3_summary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_3/model_3_training.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_3/model_3_training_logs.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_3/model_3_validation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_4/model_4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_4/model_4_summary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_4/model_4_training.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_4/model_4_training_logs.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_4/model_4_validation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_5/model_5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_5/model_5_summary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_5/model_5_training.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_5/model_5_training_logs.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gov/sandia/mlRex/models/model_5/model_5_validation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598856618905</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed some of the images so that they are all 8 bit">
+      <created>1598995488707</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598995488707</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +179,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Yucaipa FIRST" />
     <MESSAGE value="Yucaipa second" />
-    <option name="LAST_COMMIT_MESSAGE" value="Yucaipa second" />
+    <MESSAGE value="Fixed some of the images so that they are all 8 bit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some of the images so that they are all 8 bit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="177" y="0" key="#Deployment" timestamp="1598987676862">
@@ -244,10 +195,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="122" y="0" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1598884900135" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1598856615294">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1598995484660">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1598856615294" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1598995484660" />
     <state x="93" y="93" width="1733" height="893" key="DiffContextDialog" timestamp="1598946915819">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
