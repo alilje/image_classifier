@@ -10,6 +10,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="ce9f225c-905a-4610-99fb-cd74e0ed5c26" name="bigpig" url="http://bigpig.sandia.gov">
+        <fileTransfer host="bigpig.sandia.gov" port="22" rootFolder="/home/alilje" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

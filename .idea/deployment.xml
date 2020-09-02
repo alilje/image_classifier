@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="gpu" createEmptyFolders="true">
+  <component name="PublishConfigData" serverName="gpu" deleteMissingItems="true" createEmptyFolders="true" promptOnLocalOverwrite="false">
     <serverData>
+      <paths name="bigpig">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/W80Tests" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="gpu">
         <serverdata>
           <mappings>

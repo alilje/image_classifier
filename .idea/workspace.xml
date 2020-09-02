@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25784836-7027-4a86-88c1-75d03d66b4c8" name="Default" comment="Fixed some of the images so that they are all 8 bit">
-      <change afterPath="$PROJECT_DIR$/data/test/class_a/03323007_8bit.5k.jpg" afterDir="false" />
+    <list default="true" id="25784836-7027-4a86-88c1-75d03d66b4c8" name="Default" comment="checked again">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/alilje.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/alilje.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gov/sandia/netRex/models/ImageClassifierCNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/gov/sandia/netRex/models/ImageClassifierCNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598995488707</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="checked again">
+      <created>1598999511296</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598999511296</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,25 +192,26 @@
     <MESSAGE value="Yucaipa FIRST" />
     <MESSAGE value="Yucaipa second" />
     <MESSAGE value="Fixed some of the images so that they are all 8 bit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed some of the images so that they are all 8 bit" />
+    <MESSAGE value="checked again" />
+    <option name="LAST_COMMIT_MESSAGE" value="checked again" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="177" y="0" key="#Deployment" timestamp="1598987676862">
+    <state x="177" y="0" key="#Deployment" timestamp="1599006035214">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="177" y="0" key="#Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1598987676862" />
-    <state x="95" y="0" key="#Options" timestamp="1598914749345">
+    <state x="177" y="0" key="#Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1599006035214" />
+    <state x="95" y="0" key="#Options" timestamp="1599004447885">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="95" y="0" key="#Options/0.0.1920.1080@0.0.1920.1080" timestamp="1598914749345" />
+    <state x="95" y="0" key="#Options/0.0.1920.1080@0.0.1920.1080" timestamp="1599004447885" />
     <state x="122" y="0" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598884900135">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="122" y="0" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1598884900135" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1598995484660">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1598999509254">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1598995484660" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1598999509254" />
     <state x="93" y="93" width="1733" height="893" key="DiffContextDialog" timestamp="1598946915819">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -207,6 +220,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="332" y="42" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1598942122463" />
+    <state x="236" y="0" key="IDE.errors.dialog" timestamp="1599004546136">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="236" y="0" key="IDE.errors.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599004546136" />
     <state x="44" y="0" key="SettingsEditor" timestamp="1598990209238">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -216,13 +233,17 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="154" y="0" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1598907617947" />
-    <state x="0" y="0" key="ftp.server.browser" timestamp="1598914816817">
+    <state x="0" y="0" key="ftp.server.browser" timestamp="1599006030402">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="0" y="0" key="ftp.server.browser/0.0.1920.1080@0.0.1920.1080" timestamp="1598914816817" />
+    <state x="0" y="0" key="ftp.server.browser/0.0.1920.1080@0.0.1920.1080" timestamp="1599006030402" />
     <state x="760" y="339" key="publish.login" timestamp="1598907977024">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="760" y="339" key="publish.login/0.0.1920.1080@0.0.1920.1080" timestamp="1598907977024" />
+    <state x="370" y="-1" key="search.everywhere.popup" timestamp="1599004485900">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="370" y="-1" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1599004485900" />
   </component>
 </project>

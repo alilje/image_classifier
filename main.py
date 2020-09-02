@@ -70,9 +70,10 @@ def main(trainer=None):
 
     #self,anImageSize, anEpoch, aBatchSize, aTestSize, numBands
     #run = hyPrms.InitialParams(options.imageDimension, options.epochs, options.batchSz, options.testSize, options.bnds)
-    run = classfy.Classifiers(500,5, 1, 30, 1)
-    theModel = run.models()
-    run.trainerGen(theModel)
+    run = classfy.Classifiers(500, 5, 8, 5, 3)
+    run.models()
+    run.trainerGen()
+    run.probabilities()
 
 
 
